@@ -1,0 +1,68 @@
+body {
+	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	line-height: 1.6;
+	color: black;
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+}
+
+a.disabled {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+	color: black;
+}
+
+
+header {
+	padding-bottom: 5px;
+	display: block;
+}
+
+header h1 {
+	line-height: 1;
+}
+
+.pagination {
+	padding-top: 5px;
+}
+
+.pagination a {
+	padding-right: 5px;
+}
+
+.container {
+	margin: 50px;
+	max-width: 700px;
+}
+
+.container img {
+	width: 100%;
+}
+
+#content *:last-child {
+	margin-bottom: 0;
+}
+
+footer {
+	padding-top: 5px;
+	font-size: 12px;
+}
+@media (min-width: 750px) {
+	body {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	.container {
+		margin: 50px auto;
+	}
+}

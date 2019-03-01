@@ -1,0 +1,14 @@
+<a href="/">На головну</a>
+<div id="content">
+	<h1>{{ TITLE }}</h1>
+	<div>{{ AUTHOR }} | {{ DATE }} | {{ CHECKSUM }}</div>
+	<div>
+		{{ CONTENT }}
+	</div>
+</div>
+
+<script>
+	$("#content img").each(function( index ) {
+		$(this).attr("data-action", "zoom")
+	});
+</script>
